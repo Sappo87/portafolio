@@ -1,0 +1,26 @@
+.contenedor
+{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(4,1fr);  
+}
+
+.contenedor .item{
+	background: #ff8000;
+	
+	/*grid-column-start:1; /*donde queremos que inicie*/
+	/*grid-column-end: 4;/*donde queremos que termine*/
+	/*nomueros negativos empiezande izquierda a derecha*/
+	
+	/*grid-row-start: 1;
+	/*grid-row-end: 3;*/
+	/*grid-column: 1 / 4;
+	grid-row: 1 / 3;*/
+
+	/*grid-area: 2 / 1 / 4 / 3;*/
+
+	/*spam hasta donde avarca la columna*/
+	grid-column: span 3;
+	grid-row: 3 / span 2; 
+}

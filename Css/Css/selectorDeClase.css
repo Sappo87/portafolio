@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+	padding: 0px;	
+	word-break:break-all;
+}
+
+ section, header, .main, footer
+{
+	border:1px solid black;
+	padding: 5px;
+}
+footer{
+	width:99%;
+	padding-top:5px;
+	text-align:center;
+	border-color: transparent;
+	background: rgba(0, 0, 0, 0.7);
+	height:50px;
+}
+footer p{
+	padding-top:15px;
+}
+
+.secciones{
+	display:flex;
+
+}
+.main{
+	min-height:100%;
+	border:none;
+}
+
+header{
+	height:50px;
+	width:99%;
+	background:rgba(0, 160, 0, 0.4);
+	clear:both;
+	border-color: transparent;
+}
+
+.sec2{
+	height:475px;
+	width: 98%;
+	border-color: transparent;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+	overflow-y:scroll;
+	
+}
+.respuesta{
+	
+	border:1px solid black;
+	word-break:break-all;
+	border-color: transparent;
+	padding: 5px;
+	font-size: 20px;
+	
+}
+
+.sec2::-webkit-scrollbar{
+    
+    border-radius: 4px;
+}
+
+
+section div h1 {
+
+	text-align: left;
+	font-size: 30px;
+	color: darkblue;
+	text-align: center;
+}
+section div	p {
+
+	text-align: left;
+	font-size: 18px;
+	color: blue;	
+	font-style: italic;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: thin;
+	border-color: blue 
+}
+
+
+
+.claseAcotacion {
+
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+	font-style: italic;
+	border-style:solid;
+	border-width:thin;
+	border-color:blue;
+	line-height: 60px; 
+}
+
+ .claseDestacado {
+
+	text-align: center;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	font-weight: bolder;
+}
+
+.claseAyuda{
+
+	text-align: center;
+	font-size: 15px;
+	color: #FF9900;
+	font-style: italic;
+	border-style:solid;
+	border-width:thin;
+	border-color:#FF9900; 
+	 max-width: 650px;
+	height: 40px;	
+}
+
+#idUnico{
+
+	text-align: center;
+	font-size: 13px;
+	color: red;
+	font-style: italic;
+	border-style:solid;
+	border-width:thin;
+	border-color:red; 
+	max-width: 40%;
+	height: 30%;	
+}
+
+.claseContenidoComun{
+
+	font-size: 14px;
+	color: black;
+}
+
+.imagenAl50 {
+	max-width: 50%;
+}

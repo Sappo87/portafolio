@@ -1,0 +1,6 @@
+.contenedor{
+
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));/*auto-fill: rellena filas automaticamente para que entren  todas las columnas que pueda tener /  permite llenar todo el espacio disponible opara que entren las columnas */
+}

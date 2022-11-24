@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+	padding: 0px;	
+	word-break:break-all;
+}
+
+aside{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+aside p{
+	line-height: 1.5;
+}
+
+aside, section, header, .main, footer
+{
+	border:1px solid black;
+	padding: 10px;
+}
+footer{
+	padding-top:5px;
+	text-align:center;
+	border-color: transparent;
+	background: rgba(0, 0, 0, 0.7);
+	height:47px;
+}
+footer p{
+	padding-top:15px;
+}
+
+nav{
+	padding:5px;
+}
+
+.secciones{
+	display:flex;
+
+}
+.main{
+	min-height:100%;
+	border:none;
+}
+
+header{
+	width:98%;
+	background:rgba(0, 160, 0, 0.4);
+	clear:both;
+	border-color: transparent;
+}
+
+.sec2{
+	width: 75%;
+	border-color: transparent;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+	
+}
+.respuesta{
+	border:1px solid black;
+	word-break:break-all;
+	border-color: transparent;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.sec3{
+	height:460px;
+	overflow-y:scroll;
+    margin-left:15px;
+	width: 25%;
+	text-align:center;
+	border-color: transparent;
+}
+
+
+.text{
+    word-break:break-all;
+	padding: 5px;
+	text-align:center;
+}
+
+.sec3::-webkit-scrollbar{
+    
+    border-radius: 4px;
+}
+
+.publicidad{
+	border:1px solid blue;
+}
+
+section div h1 {
+
+	text-align: left;
+	font-size: 30px;
+	color: darkblue;
+	text-align: center;
+}
+section div	p {
+
+	text-align: left;
+	font-size: 18px;
+	color: blue;	
+	font-style: italic;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: thin;
+	border-color: blue 
+}

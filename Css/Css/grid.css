@@ -1,0 +1,7 @@
+.contenedor
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr; /*cantidad de columnas, medida fr toma una fracion de cada uno para total de contenedor padre*/
+	grid-template-rows: 150px 300px;/*tamaño de filas*/
+	grid-gap: 20px;/*tamaño de espaciado entre divs*/
+}

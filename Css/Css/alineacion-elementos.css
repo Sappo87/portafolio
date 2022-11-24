@@ -1,0 +1,26 @@
+.contenedor
+{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr); 
+	grid-template-rows: repeat(3,200px);
+
+	/*alineacion de forma horizontal y vertical*/
+	/*justify-items: start;/*horizontal*/
+	justify-items: center;/*horizontal elemento centrado de forma horizontal*/
+	/*justify-items: auto;/*horizontal avarca tamaño automatico*/
+	/*justify-items: stretch;/*horizontal avarca todo espacio disponible*/
+	/*justify-items: end;/*horizontal posiciona a la derecha*/
+
+	/*mismo propiedades antes explicadas para la alineacion*/
+	/*align-items: stretch; /*vertical abarca todo en eje y*/
+	align-items: center;
+}
+
+
+.contenedor .item{
+
+	background: #ff8000;
+	justify-self: stretch;/*cual va a ser el posicionamiento que tiene solo el lemento item*/
+	align-self: end; /*start , center, end, stretch*/
+}

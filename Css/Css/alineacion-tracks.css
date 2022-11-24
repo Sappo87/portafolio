@@ -1,0 +1,16 @@
+/*alineacion en grupo vertical y horizontal*/
+
+.contenedor{
+	display: grid;
+	grid-gap: 20px;
+	height: 700px;
+
+	grid-template-columns: repeat(3, 150px);
+	grid-template-rows: repeat(3, 150px);
+
+	/*alinea horizontalmente*/
+	justify-content: center;/* normal, start, center, end, space-around: agrega espaciado entre columnas, space-between: deja espaciado entre columns, space-evenly:espaciado mismo tañano inicio y final; */
+
+	/*alinea verticalmente*/
+	align-content: center; /* normal, start, center, end, space-around: agrega espaciado entre columnas, space-between: deja espaciado entre columns, space-evenly:espaciado mismo tañano inicio y final; */
+}
